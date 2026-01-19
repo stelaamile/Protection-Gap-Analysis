@@ -25,7 +25,7 @@ sns.barplot(data=df, x='Region', y='Annual_OOP_Spending', ci=None)
 plt.title('Protection Gap by Region')
 
 # Salvataggio forzato (così non dobbiamo sperare che si apra la finestra)
-output_path = 'strategic_chart.png'
+output_path = 'outputs/strategic_chart.png'
 plt.savefig(output_path)
 print(f"✅ Grafico salvato come immagine: {output_path}")
 print("🏁 Analisi completata!")
