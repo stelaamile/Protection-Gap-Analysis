@@ -1,12 +1,12 @@
 # Strategic Welfare Transformation: Closing the Italian Health Protection Gap
 
 ## Project Overview
-This project presents a data-driven strategic analysis of the Italian health insurance market. It addresses the significant "Protection Gap" where approximately 90% of private healthcare spending remains "Out-of-Pocket" (OOP) rather than being intermediated by insurance[cite: 75, 94]. 
+This project presents a data-driven strategic analysis of the Italian health insurance market. It addresses the significant "Protection Gap" where approximately 90% of private healthcare spending remains "Out-of-Pocket" (OOP) rather than being intermediated by insurance. 
 
 Drawing from field experience at a leading Italian insurance agency (Unipol Group), the project combines macroeconomic insights with operational business analysis to design a scalable growth strategy .
 
 ## Business Problem
-The Italian National Health Service (SSN), a "Beveridge" universalistic model, is currently facing challenges in responsiveness, leading to long waiting lists and a rise in private spending[cite: 33, 61, 124]. However, insurance penetration remains low (only ~2% of total health spending), particularly in Southern Italy where coverage drops to approximately 5% compared to 40% in the North-West.
+The Italian National Health Service (SSN), a "Beveridge" universalistic model, is currently facing challenges in responsiveness, leading to long waiting lists and a rise in private spending. However, insurance penetration remains low (only ~2% of total health spending), particularly in Southern Italy where coverage drops to approximately 5% compared to 40% in the North-West.
 
 ## Strategic Pillars
 The project is structured around three main management objectives:
