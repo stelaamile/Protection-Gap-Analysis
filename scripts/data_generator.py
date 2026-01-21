@@ -23,6 +23,8 @@ for region, params in regions.items():
         data.append({
             'Region': region,
             'Customer_ID': f"CID_{np.random.randint(10000, 99999)}",
+            'Customer_Age': np.random.randint(25, 85), # Variabile demografica
+            'Household_Income': np.random.normal(30000, 10000), # Capacità di spesa
             'Has_Health_Insurance': has_vhi,
             'Annual_OOP_Spending': round(max(0, oop_spend), 2),
             'Has_Motor_Insurance': 1, # Almost all current agency customers 

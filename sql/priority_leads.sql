@@ -6,9 +6,10 @@ SELECT
     Customer_ID,
     Region,
     Annual_OOP_Spending,
-    (Annual_OOP_Spending * 0.15) as Potential_Premium_Saving -- Strategic calculation
+    Last_Interaction_Days,
+    -- Algoritmo di Priorità: 70% Spesa OOP, 30% Recency (prossimità di contatto)
+    ((Annual_OOP_Spending / 1500.0) * 0.7 + (1 - Last_Interaction_Days / 365.0) * 0.3) * 100 AS Priority_Score
 FROM insurance_market_data
 WHERE Has_Health_Insurance = 0 
-  AND Annual_OOP_Spending > 750 -- Above average inefficiency threshold [cite: 97]
-ORDER BY Annual_OOP_Spending DESC
+ORDER BY Priority_Score DESC
 LIMIT 50;
